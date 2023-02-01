@@ -35,3 +35,13 @@ strReverse('Akademia108_2');
 
 const strReverse1 = ([...str]) => console.log(str.reverse().join(''));
 strReverse1('Akademia108_3');
+
+
+function strReverse2([...str]) {
+    return str.reverse().join('');
+}
+console.log(strReverse2('Akademia108_4'));
+
+const strReverse3 = ([...str]) => str.reverse().join('');
+console.log(strReverse3('Akademia108_5'));
+
