@@ -35,3 +35,9 @@ jsonPracownicy.pracownicy.forEach((element, index) => {
 // for (let key1 of jsonPracownicy.pracownicy) {
 //     console.log(jsonPracownicy.pracownicy[key1]);
 // }
+
+console.log('\nMożna i bardziej elegancko :) ')
+
+for (let i = 0; i < jsonPracownicy.pracownicy.length; i++) {
+        console.log('Index[' + i + '] imie: ' + jsonPracownicy.pracownicy[i].firstName + ', nazwisko: ' + jsonPracownicy.pracownicy[i].lastName);
+};
