@@ -5,7 +5,13 @@ class Ksiazka {
         this.przeczytana = przeczytana;
     }
     opiszKsiazke() {
-        console.log('Książka ma tytuł ' + this.tytul + ', autorem jest ' + this.autor + ' i została przeczytana ' + this.przeczytana);
+        // if(this.przeczytana == true) {
+        //     this.przeczytana = 'przeczytana';
+        // }
+        // else this.przeczytana = 'nieprzeczytana';
+        (this.przeczytana == true)? this.przeczytana = 'przeczytana' : this.przeczytana = 'nieprzeczytana';
+        
+        console.log('Książka ma tytuł ' + this.tytul + ', autorem jest ' + this.autor + ' i została ' + this.przeczytana);
     }
 }
 
